@@ -1,0 +1,230 @@
+{
+    "blogs": [
+        {
+        "id": 1,
+        "title": "The Ultimate Guide to Blogging",
+        "description": "Learn how to start and grow a successful blog from scratch.",
+        "author": "John Doe",
+        "createdAt": "2023-01-15T08:00:00Z",
+        "image": "https://example.com/images/blog1.jpg",
+        "keywords": ["blogging", "tips", "success"]
+        },
+        {
+        "id": 2,
+        "title": "10 Tips for Writing Engaging Blog Posts",
+        "description": "Discover tips to make your blog posts more engaging and readable.",
+        "author": "Jane Smith",
+        "createdAt": "2023-01-20T09:00:00Z",
+        "image": "https://example.com/images/blog2.jpg",
+        "keywords": ["writing", "blog posts", "engagement"]
+        },
+        {
+        "id": 3,
+        "title": "How to Monetize Your Blog",
+        "description": "Explore various ways to earn money from your blog.",
+        "author": "Alice Johnson",
+        "createdAt": "2023-01-25T10:00:00Z",
+        "image": "https://example.com/images/blog3.jpg",
+        "keywords": ["monetization", "income", "earnings"]
+        },
+        {
+        "id": 4,
+        "title": "SEO Best Practices for Bloggers",
+        "description": "Optimize your blog posts for search engines with these best practices.",
+        "author": "Bob Brown",
+        "createdAt": "2023-02-01T11:00:00Z",
+        "image": "https://example.com/images/blog4.jpg",
+        "keywords": ["SEO", "search engines", "optimization"]
+        },
+        {
+        "id": 5,
+        "title": "Creating a Content Calendar",
+        "description": "Plan your blog content effectively with a content calendar.",
+        "author": "John Doe",
+        "createdAt": "2023-02-05T12:00:00Z",
+        "image": "https://example.com/images/blog5.jpg",
+        "keywords": ["content calendar", "planning", "organization"]
+        },
+        {
+        "id": 6,
+        "title": "The Importance of Visuals in Blogging",
+        "description": "Enhance your blog posts with eye-catching visuals.",
+        "author": "Jane Smith",
+        "createdAt": "2023-02-10T13:00:00Z",
+        "image": "https://example.com/images/blog6.jpg",
+        "keywords": ["visuals", "graphics", "images"]
+        },
+        {
+        "id": 7,
+        "title": "How to Build an Email List",
+        "description": "Grow your blog's audience by building an email list.",
+        "author": "Alice Johnson",
+        "createdAt": "2023-02-15T14:00:00Z",
+        "image": "https://example.com/images/blog7.jpg",
+        "keywords": ["email list", "audience growth", "subscribers"]
+        },
+        {
+        "id": 8,
+        "title": "The Benefits of Guest Blogging",
+        "description": "Expand your reach by writing guest posts for other blogs.",
+        "author": "Bob Brown",
+        "createdAt": "2023-02-20T15:00:00Z",
+        "image": "https://example.com/images/blog8.jpg",
+        "keywords": ["guest blogging", "outreach", "collaboration"]
+        },
+        {
+        "id": 9,
+        "title": "Using Social Media to Promote Your Blog",
+        "description": "Learn how to use social media to drive traffic to your blog.",
+        "author": "John Doe",
+        "createdAt": "2023-02-25T16:00:00Z",
+        "image": "https://example.com/images/blog9.jpg",
+        "keywords": ["social media", "promotion", "traffic"]
+        },
+        {
+        "id": 10,
+        "title": "Analyzing Your Blog's Performance",
+        "description": "Understand your blog's performance through analytics.",
+        "author": "Jane Smith",
+        "createdAt": "2023-03-01T17:00:00Z",
+        "image": "https://example.com/images/blog10.jpg",
+        "keywords": ["analytics", "performance", "data analysis"]
+        },
+        {
+        "id": 11,
+        "title": "How to Write a Compelling Blog Title",
+        "description": "Tips for crafting blog titles that attract readers.",
+        "author": "Alice Johnson",
+        "createdAt": "2023-03-05T18:00:00Z",
+        "image": "https://example.com/images/blog11.jpg",
+        "keywords": ["blog titles", "headline", "attraction"]
+        },
+        {
+        "id": 12,
+        "title": "The Power of Storytelling in Blogging",
+        "description": "Engage your audience by incorporating storytelling into your blog.",
+        "author": "Bob Brown",
+        "createdAt": "2023-03-10T19:00:00Z",
+        "image": "https://example.com/images/blog12.jpg",
+        "keywords": ["storytelling", "engagement", "narrative"]
+        },
+        {
+        "id": 13,
+        "title": "How to Find Your Blogging Voice",
+        "description": "Develop a unique voice that resonates with your readers.",
+        "author": "John Doe",
+        "createdAt": "2023-03-15T20:00:00Z",
+        "image": "https://example.com/images/blog13.jpg",
+        "keywords": ["blogging voice", "personality", "tone"]
+        },
+        {
+        "id": 14,
+        "title": "Creating Shareable Blog Content",
+        "description": "Learn how to create content that readers want to share.",
+        "author": "Jane Smith",
+        "createdAt": "2023-03-20T21:00:00Z",
+        "image": "https://example.com/images/blog14.jpg",
+        "keywords": ["shareable content", "virality", "social sharing"]
+        },
+        {
+        "id": 15,
+        "title": "How to Engage with Your Blog Audience",
+        "description": "Build a loyal readership by engaging with your audience.",
+        "author": "Alice Johnson",
+        "createdAt": "2023-03-25T22:00:00Z",
+        "image": "https://example.com/images/blog15.jpg",
+        "keywords": ["audience engagement", "interaction", "community"]
+        },
+        {
+        "id": 16,
+        "title": "The Best Tools for Bloggers",
+        "description": "Discover essential tools that every blogger should use.",
+        "author": "Bob Brown",
+        "createdAt": "2023-03-30T23:00:00Z",
+        "image": "https://example.com/images/blog16.jpg",
+        "keywords": ["blogging tools", "resources", "utilities"]
+        },
+        {
+        "id": 17,
+        "title": "How to Create a Blogging Schedule",
+        "description": "Stay consistent by creating a blogging schedule.",
+        "author": "John Doe",
+        "createdAt": "2023-04-01T00:00:00Z",
+        "image": "https://example.com/images/blog17.jpg",
+        "keywords": ["blogging schedule", "consistency", "time management"]
+        },
+        {
+        "id": 18,
+        "title": "How to Increase Blog Traffic",
+        "description": "Proven strategies to drive more traffic to your blog.",
+        "author": "Jane Smith",
+        "createdAt": "2023-04-05T01:00:00Z",
+        "image": "https://example.com/images/blog18.jpg",
+        "keywords": ["blog traffic", "growth", "audience building"]
+        },
+        {
+        "id": 19,
+        "title": "The Importance of Blogging Consistently",
+        "description": "Why consistency is key to blogging success.",
+        "author": "Alice Johnson",
+        "createdAt": "2023-04-10T02:00:00Z",
+        "image": "https://example.com/images/blog19.jpg",
+        "keywords": ["consistency", "success", "regularity"]
+        },
+        {
+        "id": 20,
+        "title": "How to Optimize Blog Posts for SEO",
+        "description": "Techniques to improve your blog's search engine ranking.",
+        "author": "Bob Brown",
+        "createdAt": "2023-04-15T03:00:00Z",
+        "image": "https://example.com/images/blog20.jpg",
+        "keywords": ["SEO optimization", "search ranking", "keywords"]
+        },
+        {
+        "id": 21,
+        "title": "Writing Compelling Blog Introductions",
+        "description": "Tips for writing introductions that hook readers.",
+        "author": "John Doe",
+        "createdAt": "2023-04-20T04:00:00Z",
+        "image": "https://example.com/images/blog21.jpg",
+        "keywords": ["blog introductions", "hook", "engagement"]
+        },
+        {
+        "id": 22,
+        "title": "The Benefits of Blogging for Business",
+        "description": "How blogging can benefit your business.",
+        "author": "Jane Smith",
+        "createdAt": "2023-04-25T05:00:00Z",
+        "image": "https://example.com/images/blog22.jpg",
+        "keywords": ["business blogging", "marketing", "branding"]
+        },
+        {
+        "id": 23,
+        "title": "How to Choose a Blogging Niche",
+        "description": "Find the perfect niche for your blog.",
+        "author": "Alice Johnson",
+        "createdAt": "2023-05-01T06:00:00Z",
+        "image": "https://example.com/images/blog23.jpg",
+        "keywords": ["blog niche", "topic selection", "focus"]
+        },
+        {
+        "id": 24,
+        "title": "Creating a Blogging Brand",
+        "description": "Build a strong brand identity for your blog.",
+        "author": "Bob Brown",
+        "createdAt": "2023-05-05T07:00:00Z",
+        "image": "https://example.com/images/blog24.jpg",
+        "keywords": ["branding", "identity", "personal brand"]
+        },
+        {
+        "id": 25,
+        "title": "How to Write a Blog Post in 30 Minutes",
+        "description": "Speed up your writing process with these tips.",
+        "author": "John Doe",
+        "createdAt": "2023-05-10T08:00:00Z",
+        "image": "https://example.com/images/blog25.jpg",
+        "keywords": ["writing efficiency", "time-saving", "productivity"]
+        }
+        
+  ]
+}
