@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Theme } from '../Context/ThemeContext'
 import { NavLink } from 'react-router-dom';
 import { LuSearch } from "react-icons/lu";
@@ -8,20 +8,43 @@ import { MdOutlineDarkMode } from "react-icons/md"; //To be used when theme is l
 
 const Navbar = () => {
     const {darkMode, toggleMode} = useContext(Theme);
+    const [showSearchBar, setShowSearchBar] = useState(false);
+    const [searchText, setSearchText] = useState("")
     console.log("Navbar rendered");
+
+    const searchHandler = (e) => {
+        console.log("Search");
+    }
+    const toggleSearchBar = () => {
+        setShowSearchBar(prev => !prev);
+    }
 
   return (
     <div className='flex justify-between min-w-full bg-slate-200'>
         <div className='flex ml-5'>
-            <h2 className='font-bold text-2xl ml-7 mt-3 mb-5 w-24'> TechPulse </h2>
-            <NavLink>
-                <LuSearch className='font-bold ml-8 mt-6 mb-5'/>
-            </NavLink>
+            <h2 className='font-bold text-2xl ml-7 mt-3 mb-5 w-32'> TechPulse </h2>
+            {
+                showSearchBar ? (
+                    <div className='flex w-56'>
+                        <input 
+                            type='text'
+                            placeholder='Search...'
+                            value={searchText}
+                            onChange={searchHandler}
+                            className='w-40 h-6 mt-5 mb-5 mr-3 rounded-md border-black'
+                        />
+                        <LuSearch 
+                            className='font-bold mt-6 mb-5'
+                            onClick={searchHandler}
+                        />
+                    </div>
+                )
+                : (
+                    <LuSearch className='font-bold  mt-6 mb-5' onClick={toggleSearchBar}/>
+                )
+            }
         </div>
         <div className='flex mr-5' >
-            <NavLink>
-                <p className='w-20 mt-5 text-center'>Home</p>
-            </NavLink>
             <NavLink>
                 <p className='w-24 mt-5 text-center'>Our Story</p>
             </NavLink>
@@ -49,3 +72,6 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+// On Clicking on the Searchicon the searchBar is appearing and the Navbarr component is getting rendered, find a way such that it doesn't render the entire component (maybe look into implementing useRef).
+// I want to close the searchBar on clicking on anywhere on the viewport, impplement it

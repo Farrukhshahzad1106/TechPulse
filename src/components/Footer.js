@@ -52,7 +52,7 @@ const Footer = () => {
                                     onChange={(e) => setEmailId(e.target.value)}
                                     className='rounder-full pl-4 pr-4 mr-5'
                                 />
-                                <button className='rounded-md min-w-24 bg-red-400'>
+                                <button className='rounded-md min-w-24 bg-red-400 hover:bg-red-600'>
                                     Subscribe
                                 </button>
                             </div>
