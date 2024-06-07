@@ -18,9 +18,13 @@ const Navbar = () => {
     const toggleSearchBar = () => {
         setShowSearchBar(prev => !prev);
     }
+    // useEffect(() => {
+    //     localStorage.setItem('mode' , `${darkMode}`);
+    // },[darkMode]);
+    
 
   return (
-    <div className='flex justify-between min-w-full bg-slate-200'>
+    <nav className='flex justify-between min-w-full bg-slate-200'>
         <div className='flex ml-5'>
             <h2 className='font-bold text-2xl ml-7 mt-3 mb-5 w-32'> TechPulse </h2>
             {
@@ -45,29 +49,29 @@ const Navbar = () => {
             }
         </div>
         <div className='flex mr-5' >
-            <NavLink>
+            <NavLink to='/ourStory'>
                 <p className='w-24 mt-5 text-center'>Our Story</p>
             </NavLink>
             <NavLink>
                 <p className='w-20 mt-5 text-center'>Blogs</p>
             </NavLink>
-            <NavLink>
+            <NavLink to='/contact-us'>
                 <p className='w-24 mt-5 text-center'>Contact Us</p>
             </NavLink>
-            <NavLink>
+            <NavLink to='sign-in'>
                 <p className='w-24 mt-5 text-center'>Sign In</p>
             </NavLink>
-            <NavLink>
+            <NavLink to='write'>
                 <p className='w-16 mt-5 text-center'>Write</p>
             </NavLink>
             <NavLink>
-                {darkMode ? <MdOutlineDarkMode className='w-12 mt-6 text-center' onClick={toggleMode}/> : <MdDarkMode className='w-12 mt-6 text-center' onClick={toggleMode}/>}
+                {darkMode ? <MdDarkMode className='w-12 mt-6 text-center' onClick={toggleMode}/> : <MdOutlineDarkMode className='w-12 mt-6 text-center' onClick={toggleMode}/>}
             </NavLink>
             <NavLink>
                 <CgProfile className='w-16 mt-6 text-center'/>
             </NavLink>
         </div>
-    </div>
+    </nav>
   )
 }
 

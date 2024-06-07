@@ -21,7 +21,7 @@ const Footer = () => {
         setFormError("Please Agree to the Checkbox to proceed");
     }
   return (
-    <div className='bg-slate-300'>
+    <footer className='bg-slate-300'>
         <div className='m-7 bg-red-300'>
             <div>
                 <p className='font-bold text-2xl pl-10 pt-5'>TechPulse</p>
@@ -93,7 +93,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
   )
 }
 
